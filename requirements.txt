@@ -8,3 +8,4 @@ plotly
 yfinance
 arch
 streamlit
+pandas-market-calendars

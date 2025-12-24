@@ -1,3 +1,27 @@
+"""
+
+Trading calendar utilities.
+
+
+
+Function:
+
+trading_days(start_date, end_date, exchange='NYSE') -> pandas.DatetimeIndex
+
+
+
+Notes:
+
+- Uses pandas_market_calendars (PMCal) to obtain official exchange schedules.
+
+- Returns timezone-naive DatetimeIndex of trading days (midnight timestamps).
+
+- Keep this centralized — all ingestion/cleaning should use this to decide which
+
+dates must exist.
+
+"""
+
 from datetime import date
 from typing import Union
 import pandas as pd
