@@ -1,0 +1,1 @@
+{"reports": [{"date": "2025-12-24", "underlying": "SPY", "by_bid_le_zero": 7210, "by_ask_le_zero": 7211, "by_bid_gt_ask": 3, "by_zero_vol_oi": 0, "kept": 231, "initial": 7474, "before": 231, "after": 231, "deduped": 0, "status": "ok", "rows_out": 231}]}
